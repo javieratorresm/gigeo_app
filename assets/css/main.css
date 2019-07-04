@@ -9711,4 +9711,37 @@ p {
   font-size: 12px;
 }
 
+nav {
+  padding: 1em;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 100px;
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin: 1em;
+}
+
+nav i {
+  margin: 1em;
+}
+
 /*# sourceMappingURL=main.css.map */
