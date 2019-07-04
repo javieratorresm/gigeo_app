@@ -1,0 +1,60 @@
+//Font Family
+$old: 'Old Standard TT', serif;
+$raleway: 'Raleway', sans-serif;
+// Font Weight
+$regular: 400;
+$bold: 700;
+
+
+// Font Sizes
+$xxx-large: 50px;
+$xx-large: 30px;
+$x-large: 20px;
+$large: 18px;
+$medium: 16px;
+$small: 14px;
+$x-small: 12px;
+
+
+/* Base Typography*/
+h1{
+  font-family: $old;
+  font-weight: $bold;
+  font-size: $xxx-large;
+}
+h2{
+  font-family: $old;
+  font-weight: $bold;
+  font-size: $xx-large;
+}
+
+h3{
+  font-family: $raleway;
+  font-weight: $bold;
+  font-size: $x-large;
+}
+
+h4{
+  font-family: $raleway;
+  font-weight: $regular;
+  font-size: $large;
+}
+
+
+h5{
+  font-family: $raleway;
+  font-weight: $regular;
+  font-size: $medium;
+}
+
+h6{
+  font-family: $raleway;
+  font-weight: $regular;
+  font-size: $small;
+}
+
+p{
+  font-family: $raleway;
+  font-weight: $regular;
+  font-size: $x-small;
+}
