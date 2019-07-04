@@ -9745,14 +9745,15 @@ nav i {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  display: block;
 }
 .header__profile {
+  display: flex;
+  justify-content: space-between;
   margin: 2em;
 }
 .header__profile img {
-  width: 25%;
+  width: 35%;
   margin-bottom: 2%;
 }
 .header__profileimage {
@@ -9760,7 +9761,6 @@ nav i {
   padding: 1%;
 }
 .header__button {
-  display: flex;
   justify-content: flex-end;
 }
 
@@ -9783,6 +9783,10 @@ nav i {
     background-size: cover;
   }
 }
+.section-videos p {
+  color: gray;
+}
+
 .button {
   color: #fff;
   margin: 2%;
