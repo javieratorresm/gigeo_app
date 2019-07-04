@@ -9719,8 +9719,9 @@ nav {
 }
 
 nav img {
-  width: 100px;
+  width: 120px;
   height: 50px;
+  margin: 1em;
 }
 
 nav ul {
@@ -9737,11 +9738,43 @@ nav li a {
   display: block;
   text-decoration: none;
   padding: 1em 2em;
-  margin: 1em;
 }
 
 nav i {
   margin: 1em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__profile {
+  margin: 2em;
+}
+.header__profile img {
+  width: 25%;
+  margin-bottom: 2%;
+}
+.header__profileimage {
+  display: inline-block;
+  padding: 1%;
+}
+.header__button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  color: #fff;
+  margin: 2%;
+  padding: 2%;
+}
+.button--color {
+  background-color: #FF5554;
+  color: #fff;
+}
+.button--color2 {
+  background-color: #7EDEE8;
 }
 
 /*# sourceMappingURL=main.css.map */

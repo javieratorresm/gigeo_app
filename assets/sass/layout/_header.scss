@@ -1,5 +1,31 @@
 
 
 .header{
+  display: flex;
+  justify-content: space-between;
+
+  &__profile{
+  margin: 2em;
+  img{
+    width: 25%;
+    margin-bottom: 2%;
+
+  }
+
+  }
+  &__profileimage{
+    display: inline-block;
+    padding: 1%;
+  }
+
+  &__img{
+
+  }
+
+  &__button{
+    display: flex;
+    justify-content: flex-end;
+
+  }
 
 }
