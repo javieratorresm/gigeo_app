@@ -1,8 +1,7 @@
 
 
 .header{
-  display: block;
-
+  display: flex;
   &__profile{
     display: flex;
     justify-content: space-between;
@@ -10,9 +9,7 @@
     img{
       width: 35%;
       margin-bottom: 2%;
-
     }
-
   }
   &__profileimage{
     display: inline-block;
@@ -23,8 +20,9 @@
   }
 
   &__button{
+    display: flex;
     justify-content: flex-end;
-
+    align-items: center;
   }
 
 }

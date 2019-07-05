@@ -2,12 +2,12 @@
 color: $white;
 margin: 2%;
 padding: 2%;
-&--color{
-  background-color: $naranjo_red;
-  color: $white;
-}
-&--color2{
-background-color: $celeste;
+  &--color{
+    background-color: $naranjo_red;
+    color: $white;
+  }
+  &--color2{
+  background-color: $celeste;
 
-}
+  }
 }

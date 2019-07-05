@@ -9745,7 +9745,7 @@ nav i {
 }
 
 .header {
-  display: block;
+  display: flex;
 }
 .header__profile {
   display: flex;
@@ -9761,7 +9761,9 @@ nav i {
   padding: 1%;
 }
 .header__button {
+  display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .img-fondo {
